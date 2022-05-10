@@ -1,0 +1,70 @@
+header{
+    background-color:#162C55;
+}
+
+.contact{
+    background-color: hsl(219, 58%, 21%);
+    .contact-logo{
+        margin-left: 25%;
+        width: 45%;
+        padding-bottom: 5%;
+    }
+    .contact-info{
+      .contact-info-option{
+          margin-left: 20%;
+          display: flex;
+          .contact-info-option-img{
+              svg{
+                  color: hsl(0, 0%, 100%);
+                  width: 1.5rem;
+                }
+            }
+            .contact-info-option-text{
+            
+                p{
+                    color: hsl(208, 100%, 97%);
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+            }
+        } 
+        .contact-form{
+            text-align: center;
+            .contact-form-element{
+
+                .contact-form-element-label{
+                    padding: 2% 0;
+                    label{
+                        color: hsl(208, 100%, 97%);
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                }
+                .contact-form-element-input{
+
+                    input{
+                        border-radius: 1rem;
+                        border:none;
+                    }
+                    textarea{
+                        border-radius: 1rem;
+                        width: 85%;
+                    }
+                }
+               
+            }
+            .contact-form-element-button{
+
+                button{
+                    padding: 3% 6%;    
+                    border-radius: 1rem;
+                    border: none;
+                    background-color: hsl(193, 53%, 30%);
+                    color: hsl(208, 100%, 97%);
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
+            }
+        } 
+    }
+}

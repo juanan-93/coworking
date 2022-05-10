@@ -1,0 +1,145 @@
+.cart{
+    background-color:hsl(219, 62%, 20%);
+    .cart-title{
+        padding-top: 5%;
+        text-align: center;
+        color: #fff;
+    }
+    .cart-table{
+        width: 85%;
+        padding: 5% 5%;
+        table{
+            
+            tr{
+                border-bottom: solid 0.1rem #fff;
+                th{
+                    width: 25%;
+                    color: aliceblue;
+                    font-size: 1rem;
+                    padding-bottom: 1%;
+                }
+                td{
+                    padding:1% 0;
+                    color: aliceblue;
+                    font-size: 1rem;
+                    text-align: center;
+                    width: 10%; 
+                    .cart-table-img{
+                        width: 100%;
+                        margin: auto;
+                    }
+                    .cart-button{
+                        display: flex;
+                        margin-top: 2%;
+                        
+                
+                        span{
+                            color: #142a54;
+                            font-size: 1.3rem;
+                            font-weight: bolder;
+                            
+                        }
+                
+                        .cart-button-element{
+                            width: 2.5rem;
+                
+                            button{
+                                background-color: hsl(193, 53%, 30%);
+                                border: 0;
+                                color:hsl(0, 0%, 100%);
+                                cursor: pointer;
+                                font-weight: 600;
+                                height: 100%;
+                                padding: 0.5rem 0;
+                                width: 100%;
+                            }
+                        }
+                
+                        .cart-button-element#left button{
+                            border-radius: 0.5rem 0 0 0.5rem;
+                        }
+                        
+                        .cart-button-element#right button{
+                            border-radius: 0 0.5rem 0.5rem 0;
+                        }
+                
+                        .cart-button-amount{
+                            border: none;
+                            border-top: 1px solid black;
+                            border-bottom: 1px solid black;
+                            width: 20%;
+                        }
+                        
+                        .cart-button-amount form{
+                            width: 100%;
+                        }
+                
+                        .cart-button-amount input{
+                            border: 0;
+                            text-align: center;
+                            padding: 0.5rem 0;
+                            width: 100%;
+                        }
+                        
+                        .cart-button-amount input:focus{
+                            outline: none;
+                        }
+                        
+                        .cart-button-amount input::-webkit-outer-spin-button,
+                        .cart-button-amount input::-webkit-inner-spin-button {
+                           -webkit-appearance: none;
+                           margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cart-resume{
+        width: 90%;
+        margin-left: 20%;
+        .cart-resume-table{
+            padding: 3%;
+            border:solid 0.3rem #fff;
+            border-radius: 2rem;
+            width: max-content;
+            text-align: center;
+            .cart-resume-table-title{
+                padding-bottom: 5%;
+                h3{
+                    color: #fff;
+                    font-size: 1rem;
+                }
+            }
+            .cart-resume-table-text{
+                padding-bottom: 5%;
+                h3{
+                    color: #fff;
+                }
+            }
+            .cart-resume-table-total-text{
+                padding-bottom: 5%;
+                h3{
+                    color: #fff;
+                }
+            }
+            .cart-resume-table-buttons{
+
+                .cart-resume-button{
+                    text-align: center;
+                    padding-top: 3%;
+                    button{
+                        cursor: pointer;
+                        color: #fff;
+                        border: none;
+                        border-radius: 3rem;
+                        background-color: hsl(193, 53%, 30%);
+                        font-size: 1rem;
+                        font-weight: 600;
+                        padding: 2% 10%;
+                    }
+                }
+            }
+        }
+    }
+}

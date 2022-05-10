@@ -1,0 +1,118 @@
+.product{
+    .product-images{
+        padding-top: 5%;
+        .product-image-big{
+            width: 80%;
+            margin-left: 10%;
+        }
+        .product-image-minis{
+            display: none;
+        }
+    }
+    .product-info{
+        text-align: center;
+        .product-info-title{
+            h2{
+
+            }
+        }
+        .product-info-price{
+
+            h3{
+                font-size: 2rem;
+                color: rgb(122, 126, 126);
+            }
+        }
+        .product-info-purchase-datas{
+            p{
+                font-weight: 600;
+                span{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
+            }
+        }
+        .product-button{
+            width: 60%;
+            display: flex;
+            margin-top: 5%;
+            margin-left: 20%;
+            span{
+                color: #142a54;
+                font-size: 1.3rem;
+                font-weight: bolder;
+                margin-right: 2rem;
+            }
+    
+            .product-button-element{
+                width: 15%;
+    
+                button{
+                    background-color: #142a54;
+                    border: 0;
+                    color:hsl(0, 0%, 100%);
+                    cursor: pointer;
+                    font-weight: 600;
+                    height: 100%;
+                    padding: 0.5rem 0;
+                    width: 100%;
+                }
+            }
+    
+            .product-button-element#left button{
+                border-radius: 0.5rem 0 0 0.5rem;
+            }
+            
+            .product-button-element#right button{
+                border-radius: 0 0.5rem 0.5rem 0;
+            }
+    
+            .product-button-amount{
+                border: none;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                width: 15%;
+            }
+            
+            .product-button-amount form{
+                width: 100%;
+            }
+    
+            .product-button-amount input{
+                border: 0;
+                text-align: center;
+                padding: 0.5rem 0;
+                width: 100%;
+            }
+            
+            .product-button-amount input:focus{
+                outline: none;
+            }
+            
+            .product-button-amount input::-webkit-outer-spin-button,
+            .product-button-amount input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            }
+        }
+        
+        .product-button-booking{
+            padding: 10% 0 0 0;
+            text-align: center;
+    
+            button{
+                @include featured-button(1.7rem)
+            }
+        }
+        .tabs{
+            display: none;
+        }
+        .product-button-booking{
+            width: 25%;
+            margin-left: 35%;
+        }
+
+    }        
+    
+}
+

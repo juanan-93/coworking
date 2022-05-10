@@ -1,0 +1,131 @@
+.cart{
+    background-color:hsl(219, 62%, 20%);
+    .cart-title{
+        padding-top: 5%;
+        text-align: center;
+    }
+    .cart-table{
+        width: 85%;
+        padding: 5% 5%;
+        table{
+            
+            tr{
+                border-bottom: solid 0.1rem #fff;
+                th{
+                    width: 25%;
+                    color: aliceblue;
+                    font-size: 1.5rem;
+                    padding-bottom: 1%;
+                }
+                td{
+                    padding:1% 0;
+                    color: aliceblue;
+                    font-size: 1.3rem;
+                    text-align: center;
+                    width: 10%; 
+                    .cart-table-img{
+                        width: 40%;
+                        margin: auto;
+                    }
+                    .cart-button{
+
+                        display: flex;
+                        margin-top: 5%;
+                    
+                        span{
+                            color: #142a54;
+                            font-size: 1.3rem;
+                            font-weight: bolder;
+                            margin-right: 2rem;
+                        }
+                
+                        .cart-button-element{
+                            width: 15%;
+                
+                            button{
+                                background-color: hsl(193, 53%, 30%);
+                                border: 0;
+                                color:hsl(0, 0%, 100%);
+                                cursor: pointer;
+                                font-weight: 600;
+                                height: 100%;
+                                padding: 0.5rem 0;
+                                width: 100%;
+                            }
+                        }
+                
+                        .cart-button-element#left button{
+                            border-radius: 0.5rem 0 0 0.5rem;
+                        }
+                        
+                        .cart-button-element#right button{
+                            border-radius: 0 0.5rem 0.5rem 0;
+                        }
+                
+                        .cart-button-amount{
+                            border: none;
+                            border-top: 1px solid black;
+                            border-bottom: 1px solid black;
+                            width: 15%;
+                        }
+                        
+                        .cart-button-amount form{
+                            width: 100%;
+                        }
+                
+                        .cart-button-amount input{
+                            border: 0;
+                            text-align: center;
+                            padding: 0.5rem 0;
+                            width: 100%;
+                        }
+                        
+                        .cart-button-amount input:focus{
+                            outline: none;
+                        }
+                        
+                        .cart-button-amount input::-webkit-outer-spin-button,
+                        .cart-button-amount input::-webkit-inner-spin-button {
+                           -webkit-appearance: none;
+                           margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cart-resume{
+        width: 90%;
+        .cart-resume-table{
+            padding: 3%;
+            border:solid 0.3rem #fff;
+            border-radius: 2rem;
+            width: max-content;
+            margin-left: auto;
+            .cart-resume-table-title{
+                padding-bottom: 10%;
+            }
+            .cart-resume-table-text{
+                padding-bottom: 5%;
+            }
+            .cart-resume-table-total-text{
+                padding-bottom: 15%;
+            }
+            .cart-resume-table-buttons{
+
+                .cart-resume-button{
+                    button{
+                        cursor: pointer;
+                        color: #fff;
+                        border: none;
+                        border-radius: 3rem;
+                        background-color: hsl(193, 53%, 30%);
+                        font-size: 1rem;
+                        font-weight: 600;
+                        padding: 5% 15%;
+                    }
+                }
+            }
+        }
+    }
+}

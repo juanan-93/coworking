@@ -1,0 +1,123 @@
+.home-slider{
+
+    .home-slider-title{
+        position: absolute;
+        top: 5vh;
+        left: 17.5%;
+        width: 65%;
+    
+        h1{
+            color: aliceblue;
+            font-size: 6rem;
+            text-align: center;
+        }
+    }
+    
+    .home-slider-subtitle{
+        position: absolute;
+        left: 30%;
+        width: max-content;
+        top: 45vh;
+
+        h4{
+            font-size: 2.5rem;
+            color: aliceblue;
+        }
+    }
+
+    .home-slider-button{
+        width: max-content;
+        position: absolute;
+        left: 40%;
+        top: 65vh;
+
+        button{
+            @include featured-button(2.5rem)
+        }
+    }
+}
+
+.home-about-us{
+    
+    .home-about-us-image img{
+        width: 100%;
+    }
+
+    .home-about-us-text{
+
+        padding: 3rem 0;
+        width: 95%;
+
+        .home-about-us-text-category{
+
+            h3 {
+                color: #717171;;
+                font-size: 2rem;
+            }
+    
+        } 
+        .home-about-us-text-title{
+
+            margin: 2rem 0;
+
+            h2{
+                color: hsl(0, 0%, 0%);
+                font-size: 3.5rem;
+                font-weight: 700;
+            }
+        } 
+
+        .home-about-us-text-description{
+
+            padding-top: 3%;
+
+            h4{
+                color: #000;
+                font-size: 2.5rem;
+                font-weight: 300;
+                letter-spacing: 0.00735em;
+                line-height: 1.235
+            }
+        }
+
+        .home-about-us-text-featured{
+
+            margin-top: 3rem;
+
+            p{
+                color: hsla(0, 0%, 0%, 0.87);
+                font-size: 2.5rem;
+                font-weight: 600;
+            }
+    
+            span{
+                color:#4AEDC2;
+                margin: 0 1rem;
+            }
+
+            span:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+.home-gallery{
+    padding-left: 0.6%;
+
+    .home-gallery-images{
+        display: flex;
+    
+        
+        .home-gallery-image{
+            margin: 0% 0.2%;
+
+            img{
+                width: 100%;   
+    
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,116 @@
+.header-lenguage{
+    display: none;
+}
+
+.checkout{
+    background-color: hsl(219, 58%, 21%);
+    .checkout-info{
+        text-align: center;
+        padding-top: 4%;
+        .checkout-info-element{
+            .checkout-info-element-text{
+                padding: 2% 0%;
+                label{
+                    color: hsl(208, 100%, 97%);
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                }
+            }
+            .checkout-info-element-input{
+                input{
+                    border-radius: 1rem;
+                    border: none;
+                }
+            }     
+        }
+        .checkout-info-coment{
+            
+            .checkout-info-coment-text{
+                padding: 2% 0;
+                label{
+                    color: hsl(208, 100%, 97%);
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                }
+            }
+            .checkout-info-coment-textarea{
+    
+                textarea{
+                    border-radius: 1rem;
+                }
+            }
+        }
+    
+    }  
+    .checkout-resume{
+        text-align: center;
+        .checkout-resume-title{
+            padding: 2% 0%;
+            h3{
+                color: hsl(208, 100%, 97%);
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+    }
+    .checkout-resume-prices{
+        text-align: center;
+        .checkout-resume-price{
+
+            .checkout-resume-price-text{
+                text-align: center;
+                label{
+                    padding-left: 5%;
+                    color: hsl(208, 100%, 97%);
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .checkout-resume-payments{
+        margin-left: 20%;
+        padding: 5%0%;
+        .checkout-resume-payment-elements{
+            display: flex;
+            padding: 3% 0;
+            .checkout-resume-payment-element{
+
+            }
+            .checkout-resume-payment-text{
+                padding-left: 3%;
+                label{
+                    color: hsl(208, 100%, 97%);
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .checkout-resume-button{
+        padding-bottom: 5%;
+        button{
+            padding: 2% 7%;
+            border: none;
+            background-color: #016e4a;
+            border-radius: 3rem;
+        }
+    }
+   
+}
+.foot{
+    text-align: center;
+    padding: 3%;
+}
+
+.footer-from-texts{
+    background-color: hsl(219, 62%, 20%);
+    padding: 5% 0;
+}
+
+.footer-from-tex{
+    text-align: center;
+    span{
+        color: hsl(192, 98%, 51%);
+        font-size: 1rem;
+    }
+}

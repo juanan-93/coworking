@@ -1,0 +1,146 @@
+.admi-panel{
+
+    width: 95%;
+    padding: 0% 2.5%;
+    margin-top: 3%;
+
+    .admin-table{
+
+        .admin-table-data{
+
+            border: solid 0.3rem hsl(134, 29%, 53%);
+            border-radius: 0.5rem;
+            background-color:hsl(219, 62%, 20%);
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            padding: 0.5rem;
+            width: 100%;
+    
+            .admin-table-data-texts{
+        
+                .admin-table-data-text{
+                    
+                    margin-bottom: 0.2rem;
+    
+                    span{
+                        color: hsl(0, 0%, 100%);
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+    
+            .admin-table-data-icons{
+    
+                .admin-table-data-icon{
+                    
+                    button{
+
+                        cursor: pointer;
+                        border: none;
+                        background-color: transparent;
+    
+                        svg{
+    
+                            color: hsl(0, 0%, 100%);
+                            width: 1.5rem;
+
+                            &:hover{
+                                color:hsl(134, 29%, 53%);
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    
+    .admin-form{
+
+        .admin-form-element-label{
+
+            margin-bottom: 1%;
+
+            label{
+                color: hsl(0, 0%, 0%);
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+
+        .admin-form-element-input{
+
+            padding-bottom: 0.5rem;
+            width: 100%;
+
+            input{
+                border: solid hsl(134, 29%, 53%);
+                border-radius: 50px;
+                font-size: 1.3rem;
+                padding: 0.4rem 2%;
+                width: 96%;
+            }
+
+            select{
+                border:solid hsl(134, 29%, 53%);
+                border-radius: 50px;
+                font-size: 1.3rem;
+                padding: 0.4rem;
+                width: 100%;
+            }
+
+            textarea{
+                border: solid hsl(134, 29%, 53%);
+                font-size: 1.2rem;
+                width: 80%;
+                height: 20vh;
+                border: solid 0.3rem hsl(134, 29%, 53%);
+                border-radius: 2rem;
+                padding: 1% 5%;
+                width: 90%;
+               
+            }
+
+
+        }
+
+        .message{
+            position: absolute;
+            width: max-content;
+            padding: 3%;
+            border-radius: 1rem;
+            border: none;
+            opacity: 0;
+            bottom: 10%;
+            transition: opacity 0.5s;
+            right: 5%;
+
+            &.active{
+                opacity: 1;
+            }
+
+            &.success{
+                background-color: hsl(128, 72%, 44%);
+            }
+
+            &.error{
+                background-color: hsl(0, 83%, 44%);
+            }
+
+            &.info{
+                background-color: hsl(234, 83%, 44%);
+            }
+           
+            p{
+                color: hsl(0, 0%, 100%);
+                font-size: 1rem;
+                font-weight: 600;
+            }
+            
+        }
+
+        
+        
+    }
+}

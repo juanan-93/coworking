@@ -1,0 +1,49 @@
+header{
+    background-color: #142a54;
+    padding: 1% 2%;
+    width: 96%;
+}
+
+.header-logo{
+    width: 70%;
+}
+
+.header-menu{
+    
+    ul{
+        display: flex;
+
+        margin-top: 1rem;
+        white-space: nowrap;
+
+        li{
+            color: aliceblue;
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin: 0 3%;
+        }
+    }
+}
+
+.header-lenguage{
+
+    margin-left: auto;
+    width: max-content;
+
+    ul{
+        display: flex;
+        margin-top: 1rem;
+    
+        li{
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: aliceblue;
+            cursor: pointer;
+        }
+    
+        li:not(:last-child):after{
+            content: '|';
+            padding: 0 0.5rem;
+        }
+    }
+}

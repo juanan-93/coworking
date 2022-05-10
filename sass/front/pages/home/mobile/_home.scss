@@ -1,0 +1,103 @@
+.header-logo{
+    width: 100%;
+}
+
+.header-menu{
+    display: none;
+    text-align: center;
+}
+
+.header-lenguage{
+    text-align: center;
+    ul{
+        li{
+            color: #142A54;
+            font-weight: 600;
+        }
+    }
+}
+.home{
+
+    .home-slider-elements{
+
+        .home-slider-title{
+            position: absolute;
+            top:25%;
+            left: 5%;
+            h1{
+                color: hsl(0, 0%, 100%);
+                font-size: 1.3rem;
+            }
+        }
+        .home-slider-subtitle{
+            position: absolute;
+            top: 30%;
+            left: 20%;
+            h4{
+                color: hsl(208, 100%, 97%);
+                font-size: 1.3rem;
+                font-weight: 600;
+            }
+        }
+        .home-slider-button{
+            position: absolute;
+            top: 35%;
+            left: 35%;
+            button{
+                color: hsl(208, 100%, 97%);
+                border: none;
+                background-color: hsl(219, 62%, 20%);
+                font-weight: 600;
+                padding: 10%;
+                border-radius: 1rem;
+
+            }
+        }
+
+    }
+    .home-about-us{
+       
+        .home-about-us-text{
+            margin-left:5%;
+            .home-about-us-text-category{
+                padding: 2% 0%;
+                h3{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    color:rgb(113,113,113);
+                }
+            }
+            .home-about-us-text-title{
+                padding: 2%;
+            }
+            .home-about-us-text-description{
+
+            }
+            .home-about-us-text-featured{
+                padding: 2%;
+                p{
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    span{
+                        margin-left: 5%;
+                        color: hsl(164, 82%, 61%);
+                        font-size: 2rem;
+
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.foot{
+    text-align: center;
+    .foot-texto{
+
+        h5{
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+}

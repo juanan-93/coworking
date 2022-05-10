@@ -1,0 +1,86 @@
+.panel-display-container{
+
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: hsla(0, 0%, 0%,0.6);
+    top: -25%;
+    display: none;
+   
+    
+    &.active{
+            
+        z-index: 100;
+        display: block;
+
+    }
+
+    .panel-display{
+
+        background-color: hsl(33, 43%, 92%);
+        position: absolute;
+        left: 35%;
+        top: 30%;
+        width: 30%;
+    
+        .panel-display-close{
+    
+            margin-left: 90%;
+    
+            button{
+    
+                cursor: pointer;
+                border: none;
+                background-color: transparent;
+    
+                svg{
+                    width: 1.5rem;
+                }
+            }
+        }
+    
+        .panel-display-text{
+    
+            text-align: center;
+    
+            h4{
+    
+                color: hsl(0, 0%, 0%);
+                font-size: 2rem;
+                font-weight: 600;
+                padding-bottom: 3%;
+            }
+        }
+    
+        .panel-display-buttons{
+    
+            display: flex;
+            text-align: center;
+    
+            .panel-display-button{
+    
+                width: 50%;
+                
+                button{
+    
+                    color: hsl(0, 0%, 100%);
+                    cursor: pointer;
+                    border: none;
+                    background-color: transparent;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    padding: 0.3rem 0;
+                    width: 100%;
+                }
+    
+                &#si{
+                    background-color: #63AA73;
+                }
+    
+                &#no{
+                    background-color: hsl(0, 81%, 48%);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+main{
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+    
+}
+
+.only-desktop{
+    display: block;
+}
+
+.only-mobile{
+    display: none;
+}

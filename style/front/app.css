@@ -1,0 +1,18 @@
+/* Error: Undefined variable.
+ *   ,
+ * 6 |     z-index: $z-index-header;
+ *   |              ^^^^^^^^^^^^^^^
+ *   '
+ *   sass\front\layout\mobile\_header.scss 6:14  @import
+ *   sass\front\mobile-app.scss 9:9              root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      z-index: $z-index-header;\d\a   \2502               ^^^^^^^^^^^^^^^\a   \2575 \a   sass\\front\\layout\\mobile\\_header.scss 6:14  @import\a   sass\\front\\mobile-app.scss 9:9              root stylesheet";
+}
