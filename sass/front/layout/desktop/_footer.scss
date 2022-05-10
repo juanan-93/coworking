@@ -1,6 +1,14 @@
 .foot{
     text-align: center;
     padding: 1vh;
+    .foot-texto{
+        margin-bottom: 25%;
+        h5{
+            color: black;
+            font-size: 2rem;
+    
+        }
+    }
 }
 
 .footer-from-texts{
@@ -11,8 +19,9 @@
 .footer-from-tex{
     text-align: center;
     span{
-        color: hsl(34, 78%, 91%);
+        color: hsl(0, 0%, 100%);
         font-size: 1.5rem;
     }
 }
+
 
