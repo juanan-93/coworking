@@ -1195,4 +1195,55 @@ main {
   padding: 5% 15%;
 }
 
+.faqs {
+  background-color: #132A53;
+}
+.faqs .faqs-title .faqs-tittle-text {
+  margin-left: 25%;
+  padding-bottom: 1%;
+}
+.faqs .faqs-title .faqs-tittle-text h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+.faqs .faqs-questions {
+  width: 50%;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 0.3rem;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line {
+  display: flex;
+  border-bottom: #132A53 solid 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 1rem;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line .faqs-question-line-text label {
+  color: #132A53;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line .faqs-question-line-svg {
+  cursor: pointer;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line .faqs-question-line-svg svg {
+  width: 2.3rem;
+  color: #132A53;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line .faqs-question-line-svg.active {
+  transform: rotate(180deg);
+}
+.faqs .faqs-questions .faqs-questions-content {
+  padding-left: 10%;
+  display: none;
+  border-bottom: #132A53 solid 0.3rem;
+}
+.faqs .faqs-questions .faqs-questions-content p {
+  color: #132A53;
+}
+.faqs .faqs-questions .faqs-questions-content.active {
+  display: block;
+}
+
 /*# sourceMappingURL=app.css.map */

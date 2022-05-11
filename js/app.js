@@ -10,7 +10,9 @@ import{switchs} from "./Desktop/admi-swtich.js"
 import{form} from "./Desktop/admi-form.js"
 import{images} from "./Desktop/admi-image.js"
 import{ckeditor} from "./Desktop/admi-ckeditor.js"
+import{faqs} from "./Desktop/faqs.js"
 
+faqs();
 ckeditor();
 images();
 form();

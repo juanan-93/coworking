@@ -1,21 +1,4 @@
-.header-logo{
-    width: 100%;
-}
 
-.header-menu{
-    display: none;
-    text-align: center;
-}
-
-.header-lenguage{
-    text-align: center;
-    ul{
-        li{
-            color: #142A54;
-            font-weight: 600;
-        }
-    }
-}
 .home{
 
     .home-slider-elements{
@@ -69,13 +52,21 @@
             }
             .home-about-us-text-title{
                 padding: 2%;
+                h2{
+                    color: hsl(0, 0%, 0%);
+                    font-size: 1.5rem;
+                }
             }
             .home-about-us-text-description{
-
+                h4{
+                    color: hsl(0, 0%, 0%);
+                    font-size: 1rem;
+                }
             }
             .home-about-us-text-featured{
                 padding: 2%;
                 p{
+                    color:black;
                     font-size: 1.5rem;
                     font-weight: 600;
                     span{
@@ -96,6 +87,7 @@
     .foot-texto{
 
         h5{
+            color:black;
             font-size: 1rem;
             font-weight: 600;
         }

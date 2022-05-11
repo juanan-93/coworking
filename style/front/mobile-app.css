@@ -365,6 +365,96 @@ ol, ul {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6, a, p {
+  color: hsl(0deg, 0%, 100%);
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a, td, th, p, button, span, label, select, input, textarea, li {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h4 {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 300ms;
+}
+a:hover, a:focus {
+  outline: none;
+  text-decoration: none;
+  outline-offset: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0.2rem 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: revert;
+}
+
+header .header-logos {
+  display: flex;
+}
+header .header-logos .header-logo {
+  width: 70%;
+  padding: 2% 0 0 2%;
+}
+header .header-logos .header-menu-hamburger {
+  padding: 2% 0 0 5%;
+  width: 15%;
+  color: hsl(0deg, 0%, 99%);
+}
+
+footer {
+  width: 100%;
+}
+footer .footer-element {
+  width: 100%;
+}
+footer .footer-element p {
+  text-align: center;
+}
+
 .mobile-five-columns {
   display: flex;
   justify-content: space-between;
@@ -691,23 +781,6 @@ header {
   font-weight: 600;
 }
 
-.header-logo {
-  width: 100%;
-}
-
-.header-menu {
-  display: none;
-  text-align: center;
-}
-
-.header-lenguage {
-  text-align: center;
-}
-.header-lenguage ul li {
-  color: #142A54;
-  font-weight: 600;
-}
-
 .home .home-slider-elements .home-slider-title {
   position: absolute;
   top: 25%;
@@ -754,10 +827,19 @@ header {
 .home .home-about-us .home-about-us-text .home-about-us-text-title {
   padding: 2%;
 }
+.home .home-about-us .home-about-us-text .home-about-us-text-title h2 {
+  color: hsl(0deg, 0%, 0%);
+  font-size: 1.5rem;
+}
+.home .home-about-us .home-about-us-text .home-about-us-text-description h4 {
+  color: hsl(0deg, 0%, 0%);
+  font-size: 1rem;
+}
 .home .home-about-us .home-about-us-text .home-about-us-text-featured {
   padding: 2%;
 }
 .home .home-about-us .home-about-us-text .home-about-us-text-featured p {
+  color: black;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -771,6 +853,7 @@ header {
   text-align: center;
 }
 .foot .foot-texto h5 {
+  color: black;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -788,16 +871,21 @@ header {
 .product .product-info {
   text-align: center;
 }
+.product .product-info .product-info-title h2 {
+  color: hsl(0deg, 0%, 0%);
+}
 .product .product-info .product-info-price h3 {
   font-size: 2rem;
   color: rgb(122, 126, 126);
 }
 .product .product-info .product-info-purchase-datas p {
   font-weight: 600;
+  color: hsl(0deg, 0%, 0%);
 }
 .product .product-info .product-info-purchase-datas p span {
   font-size: 1.2rem;
   font-weight: 600;
+  color: hsl(0deg, 0%, 0%);
 }
 .product .product-info .product-button {
   width: 60%;
@@ -992,6 +1080,58 @@ header {
   border-radius: 50px;
   font-size: 1.3rem;
   padding: 3% 7%;
+}
+
+.faqs {
+  background-color: #132A53;
+  padding-bottom: 15%;
+}
+.faqs .faqs-title .faqs-tittle-text {
+  margin-left: 20%;
+  padding-bottom: 1%;
+}
+.faqs .faqs-title .faqs-tittle-text h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.faqs .faqs-questions {
+  width: 70%;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 0.3rem;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line {
+  display: flex;
+  border-bottom: #132A53 solid 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 1rem;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line .faqs-question-line-text label {
+  color: #132A53;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line .faqs-question-line-svg {
+  cursor: pointer;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line .faqs-question-line-svg svg {
+  width: 2.3rem;
+  color: #132A53;
+}
+.faqs .faqs-questions .faqs-question-lines .faqs-questions-line .faqs-question-line-svg.active {
+  transform: rotate(180deg);
+}
+.faqs .faqs-questions .faqs-questions-content {
+  padding-left: 10%;
+  display: none;
+  border-bottom: #132A53 solid 0.3rem;
+}
+.faqs .faqs-questions .faqs-questions-content p {
+  color: #132A53;
+}
+.faqs .faqs-questions .faqs-questions-content.active {
+  display: block;
 }
 
 /*# sourceMappingURL=mobile-app.css.map */
