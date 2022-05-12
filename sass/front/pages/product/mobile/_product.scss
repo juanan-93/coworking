@@ -106,9 +106,37 @@
                 @include featured-button(1.7rem)
             }
         }
-        .tabs{
-            display: none;
+
+        .tabs-select{
+            padding: 6% 0 0 0;
+
+            .tab-select{
+                margin-bottom: 3%;
+
+                select{
+                    padding: 0% 5%;
+                }
+            }
+            .tabs-select-content{
+                background-color: #86898d;
+                width: max-content;
+                margin:  auto;
+                border-radius: 0.5rem;
+                .select-content{
+                    display: none;
+                    &.active{
+                        display: block;
+                    }
+                    p{
+                        font-size: 1.5rem;
+                        color: black;
+                        font-weight: 600;
+                    }
+                }
+             
+            }
         }
+        
         .product-button-booking{
             width: 25%;
             margin-left: 35%;
