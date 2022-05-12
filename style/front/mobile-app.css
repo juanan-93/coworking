@@ -446,6 +446,7 @@ header .header-logos .header-menu-hamburger {
 }
 
 footer {
+  padding: 15% 0 0 0;
   width: 100%;
 }
 footer .footer-element {
@@ -499,9 +500,10 @@ footer .footer-element p {
   width: 100%;
 }
 
-.cart {
-  background-color: hsl(219deg, 62%, 20%);
+body {
+  background-color: #142a54;
 }
+
 .cart .cart-title {
   padding-top: 5%;
   text-align: center;
@@ -509,7 +511,10 @@ footer .footer-element p {
 }
 .cart .cart-table {
   width: 85%;
-  padding: 5% 5%;
+  padding: 10% 5%;
+}
+.cart .cart-table table {
+  margin-left: 5%;
 }
 .cart .cart-table table tr {
   border-bottom: solid 0.1rem #fff;
@@ -525,11 +530,7 @@ footer .footer-element p {
   color: aliceblue;
   font-size: 1rem;
   text-align: center;
-  width: 10%;
-}
-.cart .cart-table table tr td .cart-table-img {
-  width: 100%;
-  margin: auto;
+  width: 25%;
 }
 .cart .cart-table table tr td .cart-button {
   display: flex;
@@ -583,11 +584,11 @@ footer .footer-element p {
   margin: 0;
 }
 .cart .cart-resume {
-  width: 90%;
-  margin-left: 20%;
+  width: 100%;
+  margin-left: 12%;
 }
 .cart .cart-resume .cart-resume-table {
-  padding: 3%;
+  padding: 3% 15%;
   border: solid 0.3rem #fff;
   border-radius: 2rem;
   width: max-content;
@@ -974,6 +975,12 @@ header {
   color: black;
   font-size: 3rem;
   font-weight: lighter;
+}
+.products-categories .products-categories-select {
+  padding-bottom: 9%;
+}
+.products-categories .products-categories-select select {
+  padding: 0.2rem;
 }
 .products-categories .products-categories-checkbox .container {
   display: block;
