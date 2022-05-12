@@ -446,7 +446,6 @@ header .header-logos .header-menu-hamburger {
 }
 
 footer {
-  padding: 15% 0 0 0;
   width: 100%;
 }
 footer .footer-element {
@@ -500,10 +499,9 @@ footer .footer-element p {
   width: 100%;
 }
 
-body {
+.cart {
   background-color: #142a54;
 }
-
 .cart .cart-title {
   padding-top: 5%;
   text-align: center;
@@ -530,7 +528,7 @@ body {
   color: aliceblue;
   font-size: 1rem;
   text-align: center;
-  width: 25%;
+  width: 10%;
 }
 .cart .cart-table table tr td .cart-button {
   display: flex;
@@ -648,6 +646,8 @@ body {
   font-weight: 600;
 }
 .checkout .checkout-info .checkout-info-element .checkout-info-element-input input {
+  padding: 1% 0;
+  width: 60%;
   border-radius: 1rem;
   border: none;
 }
@@ -955,8 +955,32 @@ header {
   border: none;
   border-radius: 2rem;
 }
-.product .product-info .tabs {
+.product .product-info .tabs-select {
+  padding: 6% 0 0 0;
+}
+.product .product-info .tabs-select .tab-select {
+  margin-bottom: 3%;
+}
+.product .product-info .tabs-select .tab-select select {
+  padding: 0% 5%;
+}
+.product .product-info .tabs-select .tabs-select-content {
+  background-color: #86898d;
+  width: max-content;
+  margin: auto;
+  border-radius: 0.3rem;
+}
+.product .product-info .tabs-select .tabs-select-content .select-content {
   display: none;
+}
+.product .product-info .tabs-select .tabs-select-content .select-content.active {
+  display: block;
+  padding: 0.5rem 2.5rem;
+}
+.product .product-info .tabs-select .tabs-select-content .select-content p {
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
 }
 .product .product-info .product-button-booking {
   width: 25%;
