@@ -11,7 +11,9 @@ import{form} from "./Desktop/admi-form.js"
 import{images} from "./Desktop/admi-image.js"
 import{ckeditor} from "./Desktop/admi-ckeditor.js"
 import{faqs} from "./Desktop/faqs.js"
+import{selecttabs} from "./Desktop/select-tabs.js"
 
+selecttabs();
 faqs();
 ckeditor();
 images();
