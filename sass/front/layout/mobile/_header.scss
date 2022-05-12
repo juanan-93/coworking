@@ -1,5 +1,5 @@
 header{
-
+	background-color:hsl(219, 58%, 21%) ;
 	.header-logos{
 		display: flex;
 
@@ -11,6 +11,8 @@ header{
 			padding: 2% 0 0 5%;
 			width: 15%;
 			color: hsl(0, 0%, 99%);
+			cursor: pointer;
+			
 		}
 
 	}
