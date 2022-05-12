@@ -432,6 +432,9 @@ main {
   display: revert;
 }
 
+header {
+  background-color: hsl(219deg, 58%, 21%);
+}
 header .header-logos {
   display: flex;
 }
@@ -443,6 +446,7 @@ header .header-logos .header-menu-hamburger {
   padding: 2% 0 0 5%;
   width: 15%;
   color: hsl(0deg, 0%, 99%);
+  cursor: pointer;
 }
 
 footer {
@@ -453,6 +457,14 @@ footer .footer-element {
 }
 footer .footer-element p {
   text-align: center;
+}
+footer .foot {
+  text-align: center;
+}
+footer .foot .foot-texto h5 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .mobile-five-columns {
@@ -728,10 +740,6 @@ footer .footer-element p {
   font-size: 1rem;
 }
 
-header {
-  background-color: #162C55;
-}
-
 .contact {
   background-color: hsl(219deg, 58%, 21%);
 }
@@ -848,15 +856,6 @@ header {
   margin-left: 5%;
   color: hsl(164deg, 82%, 61%);
   font-size: 2rem;
-}
-
-.foot {
-  text-align: center;
-}
-.foot .foot-texto h5 {
-  color: black;
-  font-size: 1rem;
-  font-weight: 600;
 }
 
 .product .product-images {
