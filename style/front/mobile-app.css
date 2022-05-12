@@ -462,7 +462,7 @@ footer .foot {
   text-align: center;
 }
 footer .foot .foot-texto h5 {
-  color: black;
+  color: hsl(0deg, 0%, 0%);
   font-size: 1rem;
   font-weight: 600;
 }
@@ -512,7 +512,7 @@ footer .foot .foot-texto h5 {
 }
 
 .cart {
-  background-color: #142a54;
+  background-color: hsl(219deg, 62%, 20%);
 }
 .cart .cart-title {
   padding-top: 5%;
