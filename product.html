@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coworking | Port D´Andratx</title>
-    <!-- <link href="style/front/mobile-app.css" rel="stylesheet"> -->
-    <link href="style/front/app.css" rel="stylesheet">
+    <link href="style/front/mobile-app.css" rel="stylesheet">
+    <!-- <link href="style/front/app.css" rel="stylesheet"> -->
 </head>
 <body>
     <header>
@@ -114,7 +114,31 @@
                             <label></label>
                         </div>
 
-                        <div class="tabs" id="tablinks">
+                        <div class="tabs-select mobile-only">
+                            <div class="tab-select">
+                                <select class="select" name="" id="">
+                                    <option value="" >Caracteristicas</option>
+                                    <option value="descripcion">Descripcion</option>
+                                    <option value="atributos">Atributos</option>
+                                    <option value="comentarios">Comentarios</option>
+                                </select>
+                            </div>                
+                            <div class="tabs-select-content">
+                            
+                                <div class="select-content" data-selectcontent="descripcion">
+                                    <p>Paris no.</p>
+                                </div>
+                                <div class="select-content " data-selectcontent="atributos">
+                                    <p>Tokyo no.</p>
+                                </div>
+                                <div class="select-content" data-selectcontent="comentarios">
+                                    <p> siempre España.</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="tabs desktop-only" id="tablinks">
                             <div class="tab">
                                 <button class="tablinks" data-tab="descripcion">Descripción</button>
                                 <button class="tablinks" data-tab="atributos">Atributos</button>
